@@ -15,3 +15,14 @@ Please use the following cmd to merge all files and then uncompress it.
 cat edges_all.tar.gz.* > edges_all.tar.gz
 ```
 
+## Reference
+Please cite the paper whenever our dataset is used to produce published results or incorporated into other software:
+```
+@inproceedings{min2022divide,
+  title={Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media},
+  author={Min, Erxue and Rong, Yu and Bian, Yatao and Xu, Tingyang and Zhao, Peilin and Huang, Junzhou and Ananiadou, Sophia},
+  booktitle={Proceedings of the ACM Web Conference 2022},
+  pages={1148--1158},
+  year={2022}
+}
+```
