@@ -3,6 +3,7 @@ A fake news dataset with multiple topics (Politics, Entertainment, Health, Covid
 
 The csv files contains 16 columns: news_id, title, url, publish_date, source, text, labels, n_tweets, n_retweets, n_replies, n_users, tweet_ids, retweet_ids, reply_ids, user_ids, data_name
 
+```
 news_id: the id of the news event
 title: title of the news
 url: source url of the news
@@ -19,6 +20,7 @@ retweet_ids: IDs of the relevant retweets
 reply_ids: IDs of the relevant replies
 user_ids: IDs of the relevant users
 data_name: news category
+```
 
 The large user social network file is in 
 ```
