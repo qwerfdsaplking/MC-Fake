@@ -39,6 +39,7 @@ Please use the following cmd to merge all files and then uncompress it.
 ```
 cat edges_all.tar.gz.* > edges_all.tar.gz
 ```
+Each line in the file is in the format of "{userA_ID},{userB_ID}", denoting a "follow" relationship from user A to user B
 
 ## Reference
 Detailed data construction process and data analysis is in our paper, please cite the paper whenever our dataset is used to produce published results or incorporated into other software:
