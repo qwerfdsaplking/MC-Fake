@@ -3,12 +3,12 @@ A fake news dataset containing 28334 news events in multiple topics (Politics, E
 
 The dataset can be downloaded from [link](https://drive.google.com/file/d/1WAyOVLqM1JOQdlpsCdKKuRltOGVC9bGt/view?usp=sharing)
 
-The csv files contains 16 columns: news_id, title, url, publish_date, source, text, labels, n_tweets, n_retweets, n_replies, n_users, tweet_ids, retweet_ids, reply_ids, user_ids, retweet_relations, reply_relations, data_name
+The csv files contains 18 columns: news_id, title, url, publish_date, source, text, labels, n_tweets, n_retweets, n_replies, n_users, tweet_ids, retweet_ids, reply_ids, user_ids, retweet_relations, reply_relations, data_name
 
 
 
 ```
-news_id: the id of the news event
+news_id: the ID of the news event
 title: title of the news
 url: source url of the news
 publish_date: publish date
