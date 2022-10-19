@@ -1,7 +1,11 @@
 # MC-Fake
-A fake news dataset with multiple topics (Politics, Entertainment, Health, Covid-19, Syria War) and social context (tweets, retweets, replies, users, retweet_relations, replying relations, user-follow-user relations).
+A fake news dataset containing 28334 news events in multiple topics (Politics, Entertainment, Health, Covid-19, Syria War) and corresponding social context (tweets, retweets, replies, users, retweet_relations, replying relations, user-follow-user relations) collected from Twitter.
 
-The csv files contains 16 columns: news_id, title, url, publish_date, source, text, labels, n_tweets, n_retweets, n_replies, n_users, tweet_ids, retweet_ids, reply_ids, user_ids, data_name
+The dataset can be downloaded from [link](https://drive.google.com/file/d/1WAyOVLqM1JOQdlpsCdKKuRltOGVC9bGt/view?usp=sharing)
+
+The csv files contains 16 columns: news_id, title, url, publish_date, source, text, labels, n_tweets, n_retweets, n_replies, n_users, tweet_ids, retweet_ids, reply_ids, user_ids, retweet_relations, reply_relations, data_name
+
+
 
 ```
 news_id: the id of the news event
@@ -15,10 +19,12 @@ n_tweets: tweet counts
 n_retweets: retweet counts
 n_replies: reply counts
 n_users: user counts
-tweet_ids: IDs of the relevant tweets
-retweet_ids: IDs of the relevant retweets
-reply_ids: IDs of the relevant replies
-user_ids: IDs of the relevant users
+tweet_ids: IDs of the relevant tweets, separated by commas
+retweet_ids: IDs of the relevant retweets, separated by commas
+reply_ids: IDs of the relevant replies, separated by commas
+user_ids: IDs of the relevant users, separated by commas
+retweet_relations: retweet relations indicated by a list of tokens {tweet_ID_A}-{tweet_ID_B}-{user_ID of tweet A}-{user_ID of tweet B} denoting A retweets B
+reply_relations: reply relations indicated by a list of tokens {tweet_ID_A}-{tweet_ID_B}-{user_ID of tweet A}-{user_ID of tweet B} denoting A replies B
 data_name: news category
 ```
 
