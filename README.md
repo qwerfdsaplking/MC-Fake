@@ -1,5 +1,5 @@
 # MC-Fake
-A fake news dataset containing 28334 news events in multiple topics (Politics, Entertainment, Health, Covid-19, Syria War) and corresponding social context (tweets, retweets, replies, users, retweet_relations, replying relations, user-follow-user relations) collected from Twitter.
+A fake news dataset containing 28334 news events in multiple topics (Politics, Entertainment, Health, Covid-19, Syria War) and corresponding social context (tweets, retweets, replies, users, retweet_relations, replying relations, user-follow-user relations) collected from Twitter (We do not publish the contents of each tweet/user due to Twitter policy, and they can be retrieved using Twitter Developer APIs).
 
 The dataset can be downloaded from [link](https://drive.google.com/file/d/1WAyOVLqM1JOQdlpsCdKKuRltOGVC9bGt/view?usp=sharing)
 
